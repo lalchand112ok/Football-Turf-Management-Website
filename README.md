@@ -7,12 +7,13 @@ This web-based application is designed to streamline the booking and management 
 
 ## <h2>Key Features 🏅</h2>
 
-**Real-Time Turf Booking: Users can easily check availability and book their preferred turf slots based on date, time, and duration.
-**Dynamic Pricing: Prices are automatically calculated based on turf type and playing hours.
-**Online Payments: Choose from multiple secure payment options to make the booking process even smoother.
-**User-Friendly Interface: A clean, intuitive interface to ensure a hassle-free experience for both players and managers.
-**Mobile-Responsive Design: Book and manage turf on the go with a fully responsive layout that works across devices.
-**Whether you're a casual player looking to reserve your favorite turf or an administrator managing turf bookings, our system is built to provide a seamless, efficient solution.
+**Real-Time Turf Booking**: Users can easily check availability and book their preferred turf slots based on date, time, and duration.
+**Dynamic Pricing**: Prices are automatically calculated based on turf type and playing hours.
+**Online Payments**: Choose from multiple secure payment options to make the booking process even smoother.
+**User-Friendly Interface**: A clean, intuitive interface to ensure a hassle-free experience for both players and managers.
+**Mobile-Responsive Design**: Book and manage turf on the go with a fully responsive layout that works across devices.
+
+Whether you're a casual player looking to reserve your favorite turf or an administrator managing turf bookings, our system is built to provide a seamless, efficient solution.
 
 ## <h2>Technologies Used 💻</h2>
 
