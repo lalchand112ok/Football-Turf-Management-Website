@@ -1,0 +1,48 @@
+<!--main-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Turf Management System</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need to make a booking? Feel free to get in touch with us using the form below or through our contact information.</p>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <ul>
+                        <li><strong>Phone:</strong> +91 8549567231</li>
+                        <li><strong>Email:</strong> hillturf@turf.com</li>
+                        <li><strong>Location:</strong> 123 Turf Street, Sports City, Bengalurur, Karnataka</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="contactus.php" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

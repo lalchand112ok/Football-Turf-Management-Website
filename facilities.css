@@ -1,0 +1,80 @@
+/*main*/
+
+/* Facilities Section */
+.facilities-section {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Facilities Title */
+.facilities-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Facilities Description */
+.facilities-section p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    color: #d3d3d3;
+}
+
+/* Facility Cards */
+.facility-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Facility Card */
+.facility-cards .card {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect on Cards */
+.facility-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Facility Icon Styling */
+.facility-icon {
+    width: 80px;
+    margin-bottom: 20px;
+    
+}
+
+/* Facility Title */
+.facility-cards .card h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #1db954;
+}
+
+/* Facility Description */
+.facility-cards .card p {
+    color: #d3d3d3;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .facility-cards {
+        flex-direction: column;
+    }
+    
+    .facility-cards .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

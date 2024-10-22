@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turf Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#">TurfLogo</a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Book Now</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="btn login-btn">Login</a>
+            <a href="#" class="btn register-btn">Register</a>
+        </div>
+    </header>
+</body>
+</html>

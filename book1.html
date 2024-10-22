@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Turf Management System</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <!-- Book Now Section -->
+    <section id="book-now" class="book-now-section">
+        <div class="container">
+            <h2>Book Your Turf Now</h2>
+            <p>Fill out the form below to reserve your turf space. We will get back to you to confirm your booking.</p>
+
+            <form id="booking-form" action="book_pay1.php" method="POST">
+                <!-- Name -->
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <!-- Date -->
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <!-- Time -->
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <!-- Turf Type -->
+                <label for="turf-type">Turf Type</label>
+                <select id="turf-type" name="turf-type" required>
+                    <option value="" disabled selected>Select Turf Type</option>
+                    <option value="5-a-side" data-rate="800">5-a-side - Rs800/hr</option>
+                    <option value="7-a-side" data-rate="1500">7-a-side - Rs1500/hr</option>
+                    <option value="full-size" data-rate="2000">Full Size - Rs2000/hr</option>
+                </select>
+
+                <!-- Duration (New) -->
+                <label for="duration">Duration (in Hours)</label>
+                <select id="duration" name="duration" required>
+                    <option value="" disabled selected>Select Duration</option>
+                    <option value="1">1 Hour</option>
+                    <option value="2">2 Hours</option>
+                    <option value="3">3 Hours</option>
+                    <option value="4">4 Hours</option>
+                    <option value="5">5 Hours</option>
+                </select>
+
+                <!-- Dynamic Price Display -->
+                <p>Total Price: <span id="total-price">$0</span></p>
+
+                <!-- Payment Method 
+                <label for="payment-method">Payment Method</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="" disabled selected>Select Payment Method</option>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="debit-card">Debit Card</option>
+                    <option value="upi">UPI</option>
+                    <option value="net-banking">Net Banking</option>
+                </select>-->
+
+                <button type="submit" class="btn">Book & Pay Now</button>
+            </form>
+
+            <div id="booking-response" class="booking-response"></div>
+        </div>
+    </section>
+
+    <script src="book2.js"></script>
+</body>
+</html>

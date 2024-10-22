@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans - Turf Management</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <section id="pricing-plans" class="pricing-section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <p>Choose from a variety of affordable plans that suit your needs.</p>
+
+            <div class="plans">
+                <!-- Basic Plan -->
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p><strong>$20/hr</strong></p>
+                    <ul>
+                        <li>1 Hour Turf Booking</li>
+                        <li>Access to Showers</li>
+                        <li>Free Parking</li>
+                    </ul>
+                    <form action="register_plan.php" method="POST">
+                        <input type="hidden" name="plan" value="Basic">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <button type="submit" class="btn">Select Basic Plan</button>
+                    </form>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p><strong>$50/hr</strong></p>
+                    <ul>
+                        <li>3 Hour Turf Booking</li>
+                        <li>Access to Showers & Locker Rooms</li>
+                        <li>Free Parking</li>
+                        <li>On-site Refreshments</li>
+                    </ul>
+                    <form action="register_plan.php" method="POST">
+                        <input type="hidden" name="plan" value="Premium">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <button type="submit" class="btn">Select Premium Plan</button>
+                    </form>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="plan">
+                    <h3>Pro Plan</h3>
+                    <p><strong>$100/hr</strong></p>
+                    <ul>
+                        <li>6 Hour Turf Booking</li>
+                        <li>Private Locker Rooms</li>
+                        <li>VIP Parking</li>
+                        <li>On-site Refreshments & Equipment</li>
+                    </ul>
+                    <form action="register_plan.php" method="POST">
+                        <input type="hidden" name="plan" value="Pro">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <button type="submit" class="btn">Select Pro Plan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/*main*/
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Container for the content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Section Title */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #d3d3d3;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Plan Title */
+.card h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #1db954;
+}
+
+/* Pricing */
+.price {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* List of features */
+.card ul {
+    list-style: none;
+    margin-bottom: 30px;
+    color: #d3d3d3;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #1db954;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #17a444;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .pricing-cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
